@@ -1,0 +1,230 @@
+PS C:\Users\lenovo\Desktop\InternNova-Student-Management> python main.py
+Loaded 0 student record(s).
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 1
+
+--- Add Student ---
+Enter student ID: STU001
+Enter student name: Rahul Sharma
+Enter age: 20
+Enter course:
+Input cannot be empty. Please try again.
+Enter course: CSE
+Enter marks (0-100): 78
+Student added successfully!
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 2
+
+--- All Students ---
+
+Total Students: 1
+---------------------------------------------
+Student ID : STU001
+Name       : Rahul Sharma
+Age        : 20
+Course     : CSE
+Marks      : 78.00
+Grade      : B
+---------------------------------------------
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 7
+Thank you for using Student Management System!
+PS C:\Users\lenovo\Desktop\InternNova-Student-Management> Get-Content data\students.json
+[
+    {
+        "student_id": "STU001",
+        "name": "Rahul Sharma",
+        "age": 20,
+        "course": "CSE",
+        "marks": 78.0
+    }
+]
+PS C:\Users\lenovo\Desktop\InternNova-Student-Management> python main.py
+Loaded 1 student record(s).
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 3
+
+--- Search Student ---
+Enter student ID: STU001
+---------------------------------------------
+Student ID : STU001
+Name       : Rahul Sharma
+Age        : 20
+Course     : CSE
+Marks      : 78.00
+Grade      : B
+---------------------------------------------
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 4
+
+--- Update Student ---
+Enter student ID to update: STU001
+Enter new name: Rahul Verma
+Enter new age: 23
+Enter new course: Mechanical
+Enter new marks (0-100): 88
+Student updated successfully!
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 2
+
+--- All Students ---
+
+Total Students: 1
+---------------------------------------------
+Student ID : STU001
+Name       : Rahul Verma
+Age        : 23
+Course     : Mechanical
+Marks      : 88.00
+Grade      : A
+---------------------------------------------
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 6
+
+--- Calculate Grade ---
+Enter student ID: STU001
+Student Name: Rahul Verma
+Percentage: 88.00%
+Grade: A
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 5
+
+--- Delete Student ---
+Enter student ID to delete: STU001
+Delete student STU001? (y/n): y
+Student deleted successfully!
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 2
+
+--- All Students ---
+No student records found.
+
+Press Enter to return to the main menu...
+
+==========================================
+       STUDENT MANAGEMENT SYSTEM
+==========================================
+1. Add Student
+2. View All Students
+3. Search Student
+4. Update Student
+5. Delete Student
+6. Calculate Grade
+7. Exit
+==========================================
+Enter your choice (1-7): 7
+Thank you for using Student Management System!
+PS C:\Users\lenovo\Desktop\InternNova-Student-Management>
